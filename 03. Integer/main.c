@@ -5,6 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	
+	// 這是註解, 他不會被編譯
+	
+	/*
+	這也是註解
+	但是可以註解多行
+    第三行 
+	*/ 
+	
 	// 宣告整數變數 number 
 	int number = 10;
 	
@@ -38,6 +46,8 @@ int main(int argc, char *argv[]) {
 	
 	// number1 並沒有被改變
 	printf("number1 的值不會因為number改變而改變, 所以還是等於 %d \n", number1);
+	
+	int result = 0;
 	 
-	return 0;
+	return result;
 }
